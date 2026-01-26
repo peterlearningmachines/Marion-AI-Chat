@@ -1,15 +1,14 @@
-<html>
-	<body>
-	<script type='text/javascript'>
+<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
-			embeddedservice_bootstrap.settings.language = 'en'; // For example, enter 'en' or 'en-US'
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
 			embeddedservice_bootstrap.init(
-				'00D2P0000008aoK',
-				'Marion_chat',
-				'https://marion.my.site.com/ESWMarionchat1765496960297',
+				'00DBm000004Ug5x',
+				'Agentforce',
+				'https://marion--comfull.sandbox.my.site.com/ESWAgentforce1769383889845',
 				{
-					scrt2URL: 'https://marion.my.my.salesforce-scrt.com'
+					scrt2URL: 'https://marion--comfull.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -17,6 +16,4 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://marion.my.site.com/ESWMarionchat1765496960297/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-</body>
-</html>
+<script type='text/javascript' src='https://marion--comfull.sandbox.my.site.com/ESWAgentforce1769383889845/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
