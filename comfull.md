@@ -1,0 +1,38 @@
+<style>
+  body { font-family: Calibri, Arial, sans-serif; margin: 0; background: #f5f5f5; }
+  .header { background: #24408C; padding: 18px 40px; display: flex; align-items: center; gap: 16px; }
+  .header img { height: 40px; }
+  .header h1 { color: white; margin: 0; font-size: 1.2em; font-weight: normal; }
+  .back { display: inline-block; margin: 24px 40px 0; color: #24408C; text-decoration: none; font-size: 0.95em; }
+  .back:hover { text-decoration: underline; }
+  .container { max-width: 700px; margin: 30px auto; padding: 20px; background: white; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  h2 { color: #52AE32; margin-top: 0; }
+  p { color: #535F51; }
+  </style>
+  <div class="header">
+      <img src="https://www.marion.sa.gov.au/dist/img/city-of-marion-logo1-1a57539ab9.svg" alt="City of Marion">
+      <h1>AI Chat Bot — CoMFULL Environment</h1>h1>
+  </div>div>
+  <a href="." class="back">&#8592; Back to environment select</a>a>
+  <div class="container">
+      <h2>CoMFULL Chat Bot</h2>h2>
+      <p>This is the FULL production environment for the City of Marion AI Chat Bot (Agentforce). The chat widget should appear in the bottom-right corner of this page.</p>p>
+  </div>div>
+  <script type='text/javascript'>
+  function initEmbeddedMessaging() {
+      try {
+            embeddedservice_bootstrap.settings.language = 'en_US';
+            embeddedservice_bootstrap.init(
+                    '00DBm000004Ug5x',
+                    'Agentforce',
+                    'https://marion--comfull.sandbox.my.site.com/ESWAgentforce1769383889845',
+              { scrt2URL: 'https://marion--comfull.sandbox.my.salesforce-scrt.com' }
+                  );
+      } catch (err) {
+            console.error('Error loading Embedded Messaging: ', err);
+      }
+  };
+  </script>
+  <script type='text/javascript' src='https://marion--comfull.sandbox.my.site.com/ESWAgentforce1769383889845/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script></p>
+  </h1>
+</style>
