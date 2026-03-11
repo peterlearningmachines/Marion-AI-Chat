@@ -26,6 +26,6 @@
 			      <a href="comuat" class="btn btn-uat">CoMUAT</a>
 				      <a href="comfull" class="btn btn-full">CoMFULL</a>
 					    </div>
-						  <div class="footer">City of Marion &nbsp;|&nbsp; LGITSA Community of Practice &nbsp;|&nbsp; 2025</div>
+						  <div class="footer">City of Marion &nbsp;|&nbsp; &nbsp;|&nbsp; </div>
 						  </div>
 </style>
