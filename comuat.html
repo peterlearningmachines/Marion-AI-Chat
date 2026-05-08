@@ -30,6 +30,26 @@ p { color: #535F51; }
   <p>This is the UAT environment for the City of Marion AI ChatBot. The chat widget should appear in the bottom-right corner of this page.</p>
 </div>
 <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DQE00000A9WhK',
+				'WebChat',
+				'https://melville.my.site.com/ESWWebChat1761709182028',
+				{
+					scrt2URL: 'https://melville.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://melville.my.site.com/ESWWebChat1761709182028/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+/*
+<script type='text/javascript'>
 function initEmbeddedMessaging() {
   try {
     embeddedservice_bootstrap.settings.language = 'en_US';
@@ -45,5 +65,6 @@ function initEmbeddedMessaging() {
 };
 </script>
 <script type='text/javascript' src='https://marion--comuat.sandbox.my.site.com/ESWWebChat1773110572742/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+*/
 </body>
 </html>
